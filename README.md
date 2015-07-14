@@ -7,14 +7,14 @@ gluahttp provides an easy way to make HTTP requests from within [GopherLua](http
 ## Installation
 
 ```
-go get github.com/cjoudrey/gluahttp
+go get github.com/nzlov/gluahttp
 ```
 
 ## Usage
 
 ```go
 import "github.com/yuin/gopher-lua"
-import "github.com/cjoudrey/gluahttp"
+import "github.com/nzlov/gluahttp"
 
 func main() {
     L := lua.NewState()
